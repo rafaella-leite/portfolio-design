@@ -1465,7 +1465,7 @@ footer > a {
     /* PORTFÓLIO: MAIOR E ATRÁS DOS OMBROS */
     .hero-title {
         position: absolute;
-        top: 37%;
+        top: 50%;
         left: 50%;
         width: max-content;
         font-size: 20vw;
@@ -1496,7 +1496,7 @@ footer > a {
     /* CREATIVE: MAIS ABAIXO E NA FRENTE */
     .creative-wrapper {
         position: absolute;
-        top: 53%;
+        top: 70%;
         left: 50%;
         width: 130%;
         z-index: 4;
