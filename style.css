@@ -1459,9 +1459,9 @@ footer > a {
 
     /* PORTFÓLIO ATRÁS DA FOTO */
     .hero-title {
-        top: 27%;
+        top: 32%;
         left: 50%;
-        font-size: 15vw;
+        font-size: 20vw;
         letter-spacing: -5px;
         z-index: 1;
     }
