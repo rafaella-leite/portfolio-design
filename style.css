@@ -801,7 +801,7 @@ footer > a {
     width: 100%;
     height: calc(100% - 120px);
 
-    background-image: url('/images/fundo-ballet.png');
+    background-image: url('/images/fundo-ballet.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
