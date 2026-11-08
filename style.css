@@ -1430,3 +1430,86 @@ footer > a {
         right: 0;
     }
 }
+
+/* ==========================
+   HOME MOBILE - COMPOSIÇÃO
+========================== */
+
+@media (max-width: 768px) {
+
+    .hero {
+        height: 100svh;
+        min-height: 700px;
+        max-height: none;
+        padding: 0 5%;
+    }
+
+    .hero-top {
+        top: 8%;
+        left: 5%;
+        right: 5%;
+        font-size: 17px;
+        letter-spacing: 3px;
+        z-index: 5;
+    }
+
+    .hero-content {
+        height: 100%;
+    }
+
+    /* PORTFÓLIO ATRÁS DA FOTO */
+    .hero-title {
+        top: 27%;
+        left: 50%;
+        font-size: 15vw;
+        letter-spacing: -5px;
+        z-index: 1;
+    }
+
+    /* FOTO EM DESTAQUE */
+    .hero-image {
+        position: absolute;
+        width: 115%;
+        height: 100%;
+        bottom: 0;
+        left: 50%;
+        z-index: 2;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center bottom;
+        transform: scale(1.12);
+        transform-origin: center bottom;
+    }
+
+    /* CREATIVE NA FRENTE DA FOTO */
+    .creative-wrapper {
+        top: 48%;
+        left: 50%;
+        width: 125%;
+        z-index: 4;
+    }
+
+    .creative-text {
+        font-size: 18vw;
+    }
+
+    .hero-description {
+        bottom: 5%;
+        width: 40%;
+        font-size: 10px;
+        letter-spacing: 1px;
+        z-index: 5;
+    }
+
+    .hero-description.left {
+        left: 0;
+    }
+
+    .hero-description.right {
+        right: 0;
+    }
+}
