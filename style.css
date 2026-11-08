@@ -1432,7 +1432,7 @@ footer > a {
 }
 
 /* ==========================
-   HOME MOBILE - COMPOSIÇÃO
+   HOME MOBILE - AJUSTE FINAL
 ========================== */
 
 @media (max-width: 768px) {
@@ -1444,29 +1444,37 @@ footer > a {
         padding: 0 5%;
     }
 
+    .hero-content {
+        height: 100%;
+        position: relative;
+    }
+
+    /* NOME NO TOPO */
     .hero-top {
+        display: flex !important;
+        position: absolute;
         top: 8%;
         left: 5%;
         right: 5%;
+        justify-content: space-between;
+        z-index: 10;
         font-size: 17px;
         letter-spacing: 3px;
-        z-index: 5;
     }
 
-    .hero-content {
-        height: 100%;
-    }
-
-    /* PORTFÓLIO ATRÁS DA FOTO */
+    /* PORTFÓLIO: MAIOR E ATRÁS DOS OMBROS */
     .hero-title {
-        top: 32%;
+        position: absolute;
+        top: 37%;
         left: 50%;
+        width: max-content;
         font-size: 20vw;
-        letter-spacing: -5px;
+        letter-spacing: -7px;
         z-index: 1;
+        white-space: nowrap;
     }
 
-    /* FOTO EM DESTAQUE */
+    /* FOTO */
     .hero-image {
         position: absolute;
         width: 115%;
@@ -1485,31 +1493,39 @@ footer > a {
         transform-origin: center bottom;
     }
 
-    /* CREATIVE NA FRENTE DA FOTO */
+    /* CREATIVE: MAIS ABAIXO E NA FRENTE */
     .creative-wrapper {
-        top: 48%;
+        position: absolute;
+        top: 53%;
         left: 50%;
-        width: 125%;
+        width: 130%;
         z-index: 4;
     }
 
     .creative-text {
-        font-size: 18vw;
+        font-size: 19vw;
+        white-space: nowrap;
     }
 
+    /* DESCRIÇÕES */
     .hero-description {
-        bottom: 5%;
-        width: 40%;
+        display: block !important;
+        position: absolute;
+        bottom: 4%;
+        width: 42%;
+        z-index: 10;
         font-size: 10px;
-        letter-spacing: 1px;
-        z-index: 5;
+        line-height: 1.5;
     }
 
     .hero-description.left {
         left: 0;
+        right: auto;
     }
 
     .hero-description.right {
         right: 0;
+        left: auto;
+        text-align: right;
     }
 }
