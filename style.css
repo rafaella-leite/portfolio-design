@@ -842,7 +842,7 @@ footer > a {
 .ballet-mockup {
     opacity: 0;
     transform: translateY(45px);
-    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 0.45s ease, transform 1s ease;
 }
 
 .ballet-section.is-visible .ballet-heading {
@@ -1002,7 +1002,7 @@ footer > a {
     opacity: 0;
     transform: translateY(40px);
     transition:
-        opacity 1s ease,
+        opacity 0.45s ease,
         transform 1s cubic-bezier(.2,.7,.2,1);
 }
 
@@ -1018,7 +1018,7 @@ footer > a {
 }
 
 .confeitaria-section.is-visible .confeitaria-image {
-    transition-delay: 0.3s;
+    transition-delay: 0.08s;
 }
 
 /* RESPONSIVO */
@@ -1185,7 +1185,7 @@ footer > a {
 }
 
 .estetica-section.is-visible .estetica-left {
-    transition-delay: 0.3s;
+    transition-delay: 0.08s;
 }
 
 .estetica-section.is-visible .estetica-right {
@@ -1321,7 +1321,7 @@ footer > a {
 }
 
 .advocacia-section.is-visible .post-2 {
-    transition-delay: 0.3s;
+    transition-delay: 0.08s;
 }
 
 .advocacia-section.is-visible .post-3 {
