@@ -1529,3 +1529,29 @@ footer > a {
         text-align: right;
     }
 }
+
+/* MOCKUP BALLET - MOBILE */
+@media (max-width: 768px) {
+
+    .ballet-showcase {
+        min-height: 750px;
+        overflow: hidden;
+    }
+
+    .ballet-mockup {
+        width: 145vw;
+        max-width: none;
+        position: relative;
+        left: 50%;
+        margin-top: 40px;
+        transform: translateX(-50%);
+    }
+
+    .ballet-mockup img {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: none;
+    }
+
+}
